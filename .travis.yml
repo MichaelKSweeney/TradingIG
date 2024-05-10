@@ -1,0 +1,6 @@
+language: csharp
+solution: IGWebApiClient.sln
+branches:
+  except:
+    - master
+

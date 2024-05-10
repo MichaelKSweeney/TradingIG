@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Skender.Stock.Indicators" Version="1.21.0" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IGWebApiClient\IGWebApiClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DotNetClient_N2">
+      <HintPath>..\..\IG\TradingIG\packages\3rdPartyDlls\DotNetClient_N2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Validation">
+      <HintPath>..\..\IG\TradingIG\packages\Validation.2.4.22\lib\portable-net45+win8+wp8+wpa81\Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
